@@ -1,0 +1,18 @@
+spring:
+  profiles:
+    active: dev
+# ���ö�����������
+---
+spring:
+  profiles: dev
+## ������Ŀ����·��
+server:
+  servlet:
+    context-path: /07swagger_sb
+---
+spring:
+  profiles: prod
+## ������Ŀ����·��
+server:
+  servlet:
+    context-path: /07swagger_sb
